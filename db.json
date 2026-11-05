@@ -1,0 +1,93 @@
+{
+  "roles": [
+    { "id": 1, "nombre": "OPERACIONES", "descripcion": "Registro de clientes y visitas en sala" },
+    { "id": 2, "nombre": "MARKETING", "descripcion": "Segmentación y promociones" },
+    { "id": 3, "nombre": "SERVICIO_CLIENTE", "descripcion": "Atención de solicitudes, reclamos e incidencias" },
+    { "id": 4, "nombre": "GERENCIA", "descripcion": "Consulta de indicadores y reportes" }
+  ],
+  "usuarios": [
+    { "id": 1, "id_rol": 1, "nombres": "Maycol", "apellidos": "Zambrano Nuñez", "username": "operaciones", "correo": "operaciones@atlanticcity.pe", "password": "demo123", "estado": "ACTIVO" },
+    { "id": 2, "id_rol": 2, "nombres": "Angel", "apellidos": "Gomez Atahuaman", "username": "marketing", "correo": "marketing@atlanticcity.pe", "password": "demo123", "estado": "ACTIVO" },
+    { "id": 3, "id_rol": 3, "nombres": "Eduardo", "apellidos": "Sancho Ccalla", "username": "servicio", "correo": "servicio@atlanticcity.pe", "password": "demo123", "estado": "ACTIVO" },
+    { "id": 4, "id_rol": 4, "nombres": "Jordi", "apellidos": "Herrera Ramos", "username": "gerencia", "correo": "gerencia@atlanticcity.pe", "password": "demo123", "estado": "ACTIVO" },
+    { "id": 5, "id_rol": 1, "nombres": "Bryan", "apellidos": "Osorio Vargas", "username": "inactivo", "correo": "inactivo@atlanticcity.pe", "password": "demo123", "estado": "INACTIVO" }
+  ],
+  "categorias": [
+    { "id": 1, "nombre": "ORO", "descripcion": "Clientes de mayor frecuencia y gasto" },
+    { "id": 2, "nombre": "PLATA", "descripcion": "Clientes de frecuencia y gasto intermedios" },
+    { "id": 3, "nombre": "BRONCE", "descripcion": "Clientes nuevos u ocasionales" }
+  ],
+  "clientes": [
+    { "id": 1, "codigo": "CLI-000124", "id_categoria": 1, "tipo_documento": "DNI", "nro_documento": "45781236", "nombres": "Rosa Elena", "apellidos": "Quispe Mendoza", "correo": "rosa.quispe@gmail.com", "direccion": "Av. Arequipa 1450, Lince, Lima", "fecha_nacimiento": "1988-06-12", "fecha_registro": "2025-03-14T10:20:00" },
+    { "id": 2, "codigo": "CLI-000125", "id_categoria": 1, "tipo_documento": "DNI", "nro_documento": "70214589", "nombres": "Carlos", "apellidos": "Huamán Ríos", "correo": "carlos.huaman@gmail.com", "direccion": "Jr. Junín 320, Miraflores, Lima", "fecha_nacimiento": "1979-02-03", "fecha_registro": "2025-04-02T18:05:00" },
+    { "id": 3, "codigo": "CLI-000126", "id_categoria": 2, "tipo_documento": "DNI", "nro_documento": "41237765", "nombres": "Lucía", "apellidos": "Fernández Paz", "correo": "lucia.fernandez@outlook.com", "direccion": "Calle Las Begonias 210, San Isidro, Lima", "fecha_nacimiento": "1992-09-21", "fecha_registro": "2025-05-11T20:40:00" },
+    { "id": 4, "codigo": "CLI-000127", "id_categoria": 2, "tipo_documento": "DNI", "nro_documento": "72910034", "nombres": "Jorge", "apellidos": "Salazar Vega", "correo": "jorge.salazar@gmail.com", "direccion": "Av. Brasil 2240, Pueblo Libre, Lima", "fecha_nacimiento": "1985-11-30", "fecha_registro": "2025-06-07T19:15:00" },
+    { "id": 5, "codigo": "CLI-000128", "id_categoria": 3, "tipo_documento": "DNI", "nro_documento": "46659021", "nombres": "Ana", "apellidos": "Torres Lima", "correo": "ana.torres@gmail.com", "direccion": "Av. La Marina 980, San Miguel, Lima", "fecha_nacimiento": "1995-04-18", "fecha_registro": "2025-08-22T21:10:00" },
+    { "id": 6, "codigo": "CLI-000129", "id_categoria": 3, "tipo_documento": "DNI", "nro_documento": "73300458", "nombres": "Luis", "apellidos": "Pérez Castro", "correo": "luis.perez@gmail.com", "direccion": "Jr. Ucayali 455, Cercado de Lima", "fecha_nacimiento": "1990-01-09", "fecha_registro": "2025-09-03T17:50:00" },
+    { "id": 7, "codigo": "CLI-000130", "id_categoria": 2, "tipo_documento": "DNI", "nro_documento": "48120987", "nombres": "María", "apellidos": "Rojas Silva", "correo": "maria.rojas@hotmail.com", "direccion": "Av. Angamos 1200, Surquillo, Lima", "fecha_nacimiento": "1983-07-25", "fecha_registro": "2025-10-15T22:30:00" }
+  ],
+  "telefonos": [
+    { "id": 1, "id_cliente": 1, "numero": "987654321", "tipo": "MOVIL" },
+    { "id": 2, "id_cliente": 1, "numero": "945778102", "tipo": "MOVIL" },
+    { "id": 3, "id_cliente": 2, "numero": "956112430", "tipo": "MOVIL" },
+    { "id": 4, "id_cliente": 3, "numero": "945778103", "tipo": "MOVIL" },
+    { "id": 5, "id_cliente": 4, "numero": "912305667", "tipo": "MOVIL" },
+    { "id": 6, "id_cliente": 5, "numero": "999111222", "tipo": "MOVIL" },
+    { "id": 7, "id_cliente": 6, "numero": "977555666", "tipo": "MOVIL" },
+    { "id": 8, "id_cliente": 7, "numero": "934220871", "tipo": "MOVIL" }
+  ],
+  "salas": [
+    { "id": 1, "nombre": "Sala Principal", "sede": "Miraflores" },
+    { "id": 2, "nombre": "Sala VIP", "sede": "San Isidro" }
+  ],
+  "juegos": [
+    { "id": 1, "nombre": "Tragamonedas", "tipo": "MAQUINA" },
+    { "id": 2, "nombre": "Ruleta", "tipo": "MESA" },
+    { "id": 3, "nombre": "Blackjack", "tipo": "MESA" },
+    { "id": 4, "nombre": "Póker", "tipo": "MESA" },
+    { "id": 5, "nombre": "Bingo", "tipo": "SALON" }
+  ],
+  "preferencias": [
+    { "id": 1, "id_cliente": 1, "id_juego": 1, "fecha_registro": "2025-03-14" },
+    { "id": 2, "id_cliente": 2, "id_juego": 2, "fecha_registro": "2025-04-02" },
+    { "id": 3, "id_cliente": 3, "id_juego": 3, "fecha_registro": "2025-05-11" }
+  ],
+  "visitas": [
+    { "id": 1, "id_cliente": 1, "id_sala": 1, "fecha": "2026-11-03", "hora_ingreso": "20:10", "hora_salida": "23:45", "observaciones": "" },
+    { "id": 2, "id_cliente": 1, "id_sala": 1, "fecha": "2026-11-01", "hora_ingreso": "19:30", "hora_salida": "22:00", "observaciones": "" },
+    { "id": 3, "id_cliente": 1, "id_sala": 2, "fecha": "2026-10-29", "hora_ingreso": "21:00", "hora_salida": "00:30", "observaciones": "" },
+    { "id": 4, "id_cliente": 1, "id_sala": 1, "fecha": "2026-10-26", "hora_ingreso": "18:45", "hora_salida": "21:10", "observaciones": "" },
+    { "id": 5, "id_cliente": 2, "id_sala": 1, "fecha": "2026-11-02", "hora_ingreso": "20:00", "hora_salida": "23:00", "observaciones": "" }
+  ],
+  "detalles": [
+    { "id": 1, "id_visita": 1, "id_juego": 1, "mesa_maquina": "TM-0452", "monto_jugado": 200.0 },
+    { "id": 2, "id_visita": 1, "id_juego": 2, "mesa_maquina": "RU-03", "monto_jugado": 120.0 },
+    { "id": 3, "id_visita": 2, "id_juego": 1, "mesa_maquina": "TM-0452", "monto_jugado": 180.0 },
+    { "id": 4, "id_visita": 3, "id_juego": 3, "mesa_maquina": "BJ-07", "monto_jugado": 250.0 },
+    { "id": 5, "id_visita": 3, "id_juego": 2, "mesa_maquina": "RU-01", "monto_jugado": 160.0 },
+    { "id": 6, "id_visita": 4, "id_juego": 1, "mesa_maquina": "TM-0310", "monto_jugado": 90.0 },
+    { "id": 7, "id_visita": 4, "id_juego": 5, "mesa_maquina": "BG-SALON", "monto_jugado": 60.0 },
+    { "id": 8, "id_visita": 5, "id_juego": 2, "mesa_maquina": "RU-02", "monto_jugado": 300.0 }
+  ],
+  "segmentos": [
+    { "id": 1, "nombre": "Clientes Oro frecuentes", "frecuencia_min_mes": 8, "gasto_min": 200.0, "id_categoria": 1, "id_juego": null },
+    { "id": 2, "nombre": "Aficionados a la ruleta", "frecuencia_min_mes": 2, "gasto_min": null, "id_categoria": null, "id_juego": 2 }
+  ],
+  "promociones": [
+    { "id": 1, "codigo": "PRM-0001", "id_segmento": 1, "nombre": "Noche Oro", "descripcion": "Beneficio exclusivo para clientes Oro frecuentes", "beneficio": "Bono de S/ 50 en tragamonedas", "fecha_inicio": "2026-11-01", "fecha_fin": "2026-11-30" }
+  ],
+  "participaciones": [
+    { "id": 1, "id_promocion": 1, "id_cliente": 1, "fecha_envio": "2026-11-01", "utilizada": true, "fecha_uso": "2026-11-03" },
+    { "id": 2, "id_promocion": 1, "id_cliente": 2, "fecha_envio": "2026-11-01", "utilizada": false, "fecha_uso": null }
+  ],
+  "casos": [
+    { "id": 1, "codigo": "INC-0241", "id_cliente": 1, "id_usuario_responsable": 3, "tipo": "RECLAMO", "prioridad": "ALTA", "descripcion": "La clienta indica que la máquina TM-0452 no registró el premio obtenido el 03/11 a las 22:40.", "estado": "EN_PROCESO", "fecha_registro": "2026-11-03T22:55:00", "fecha_cierre": null, "solucion": null },
+    { "id": 2, "codigo": "INC-0240", "id_cliente": 4, "id_usuario_responsable": 3, "tipo": "SOLICITUD", "prioridad": "MEDIA", "descripcion": "Solicita actualizar su correo electrónico.", "estado": "ABIERTO", "fecha_registro": "2026-11-03T19:10:00", "fecha_cierre": null, "solucion": null },
+    { "id": 3, "codigo": "INC-0239", "id_cliente": 3, "id_usuario_responsable": null, "tipo": "INCIDENCIA", "prioridad": "ALTA", "descripcion": "Reporta un cobro duplicado en caja.", "estado": "ABIERTO", "fecha_registro": "2026-11-02T21:30:00", "fecha_cierre": null, "solucion": null }
+  ],
+  "seguimientos": [
+    { "id": 1, "id_caso": 1, "id_usuario": 1, "fecha_hora": "2026-11-03T22:55:00", "estado": "ABIERTO", "comentario": "Caso registrado en sala." },
+    { "id": 2, "id_caso": 1, "id_usuario": 3, "fecha_hora": "2026-11-04T09:10:00", "estado": "EN_PROCESO", "comentario": "Asignado a Servicio al Cliente." },
+    { "id": 3, "id_caso": 1, "id_usuario": 3, "fecha_hora": "2026-11-04T10:05:00", "estado": "EN_PROCESO", "comentario": "En revisión con soporte técnico de sala." }
+  ]
+}

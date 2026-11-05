@@ -1,0 +1,13 @@
+{
+  "name": "atlantic-city-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "API REST simulada del CRM piloto de Atlantic City (JSON Server). Grupo 02 · EFSRT PDCCV · IDAT 2026-III",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3001",
+    "dev": "json-server --watch db.json --port 3001 --delay 300"
+  },
+  "devDependencies": {
+    "json-server": "0.17.4"
+  }
+}
