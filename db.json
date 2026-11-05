@@ -6,11 +6,11 @@
     { "id": 4, "nombre": "GERENCIA", "descripcion": "Consulta de indicadores y reportes" }
   ],
   "usuarios": [
-    { "id": 1, "id_rol": 1, "nombres": "Maycol", "apellidos": "Zambrano Nuñez", "username": "operaciones", "correo": "operaciones@atlanticcity.pe", "password": "demo123", "estado": "ACTIVO" },
-    { "id": 2, "id_rol": 2, "nombres": "Angel", "apellidos": "Gomez Atahuaman", "username": "marketing", "correo": "marketing@atlanticcity.pe", "password": "demo123", "estado": "ACTIVO" },
-    { "id": 3, "id_rol": 3, "nombres": "Eduardo", "apellidos": "Sancho Ccalla", "username": "servicio", "correo": "servicio@atlanticcity.pe", "password": "demo123", "estado": "ACTIVO" },
-    { "id": 4, "id_rol": 4, "nombres": "Jordi", "apellidos": "Herrera Ramos", "username": "gerencia", "correo": "gerencia@atlanticcity.pe", "password": "demo123", "estado": "ACTIVO" },
-    { "id": 5, "id_rol": 1, "nombres": "Bryan", "apellidos": "Osorio Vargas", "username": "inactivo", "correo": "inactivo@atlanticcity.pe", "password": "demo123", "estado": "INACTIVO" }
+    { "id": 1, "id_rol": 1, "nombres": "Maycol", "apellidos": "Zambrano Nuñez", "username": "operaciones", "correo": "operaciones@atlanticcity.pe", "password": "demo123", "estado": "ACTIVO", "grupo": "02" },
+    { "id": 2, "id_rol": 2, "nombres": "Angel", "apellidos": "Gomez Atahuaman", "username": "marketing", "correo": "marketing@atlanticcity.pe", "password": "demo123", "estado": "ACTIVO", "grupo": "02" },
+    { "id": 3, "id_rol": 3, "nombres": "Eduardo", "apellidos": "Sancho Ccalla", "username": "servicio", "correo": "servicio@atlanticcity.pe", "password": "demo123", "estado": "ACTIVO", "grupo": "02" },
+    { "id": 4, "id_rol": 4, "nombres": "Jordi", "apellidos": "Herrera Ramos", "username": "gerencia", "correo": "gerencia@atlanticcity.pe", "password": "demo123", "estado": "ACTIVO", "grupo": "02" },
+    { "id": 5, "id_rol": 1, "nombres": "Bryan", "apellidos": "Osorio Vargas", "username": "inactivo", "correo": "inactivo@atlanticcity.pe", "password": "demo123", "estado": "INACTIVO", "grupo": "02" }
   ],
   "categorias": [
     { "id": 1, "nombre": "ORO", "descripcion": "Clientes de mayor frecuencia y gasto" },
